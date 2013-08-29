@@ -7,6 +7,8 @@ various useful non package latex hacks
 infinity  \infty
 
 
+Define \fullpath for latex document location
+
 \makeatletter
 
 \def\fullpath{\begingroup\everyeof{\noexpand}\@sanitize
